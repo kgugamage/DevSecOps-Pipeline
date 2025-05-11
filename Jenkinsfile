@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Dummy') {
             steps {
-                echo 'This is my updated dummy stage.'
+                echo 'This is my second updated dummy stage.'
             }
         }
     }
