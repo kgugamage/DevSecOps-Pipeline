@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Dummy') {
             steps {
-                echo 'This is a dummy stage.'
+                echo 'Pipeline triggered by auto commit.'
             }
         }
     }
